@@ -1,1 +1,1 @@
-web: gunicorn consultimm.wsgi
+web: gunicorn --pythonpath consultimm consultimm.wsgi
